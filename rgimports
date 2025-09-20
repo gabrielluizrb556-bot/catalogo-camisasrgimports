@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Loja Futebol Raiz</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: #f5f5f5;
+      color: #333;
+    }
+    header {
+      background: #111;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 28px;
+    }
+    header p {
+      margin: 5px 0 0;
+      font-size: 16px;
+    }
+    .catalogo {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      padding: 30px;
+    }
+    .produto {
+      background: #fff;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      padding: 15px;
+      text-align: center;
+    }
+    .produto img {
+      max-width: 100%;
+      border-radius: 8px;
+    }
+    .produto h3 {
+      margin: 10px 0 5px;
+      font-size: 18px;
+    }
+    .produto p {
+      font-size: 14px;
+      color: #555;
+    }
+    .preco {
+      font-size: 18px;
+      font-weight: bold;
+      margin: 10px 0;
+      color: #008000;
+    }
+    .btn {
+      display: inline-block;
+      padding: 10px 15px;
+      background: #ffcc00;
+      color: #000;
+      text-decoration: none;
+      border-radius: 6px;
+      font-weight: bold;
+    }
+    footer {
+      background: #111;
+      color: #fff;
+      text-align: center;
+      padding: 15px;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Futebol Raiz Store</h1>
+    <p>Camisas atuais e retrô ⚽ | Estilo e Paixão em cada peça</p>
+  </header>
+
+  <section class="catalogo">
+
+    <div class="produto">
+      <img src="camisa-brasil-1994.jpg" alt="Camisa Retrô Brasil 1994">
+      <h3>Camisa Retrô Brasil 1994</h3>
+      <p>Reviva o Tetra com estilo! Tecido leve e confortável.</p>
+      <div class="preco">R$ 149,90</div>
+      <a href="https://wa.me/seunumerowhatsapp?text=Quero+a+Camisa+Retrô+Brasil+1994" class="btn">Comprar no WhatsApp</a>
+    </div>
+
+    <div class="produto">
+      <img src="camisa-flamengo-1981.jpg" alt="Camisa Retrô Flamengo 1981">
+      <h3>Camisa Retrô Flamengo 1981</h3>
+      <p>A camisa do título histórico da Libertadores. Peça clássica!</p>
+      <div class="preco">R$ 159,90</div>
+      <a href="https://wa.me/seunumerowhatsapp?text=Quero+a+Camisa+Retrô+Flamengo+1981" class="btn">Comprar no WhatsApp</a>
+    </div>
+
+    <div class="produto">
+      <img src="camisa-barcelona-2011.jpg" alt="Camisa Barcelona 2011">
+      <h3>Camisa Barcelona 2011</h3>
+      <p>O uniforme da era Messi, Xavi e Iniesta. Colecionador!</p>
+      <div class="preco">R$ 169,90</div>
+      <a href="https://wa.me/seunumerowhatsapp?text=Quero+a+Camisa+Barcelona+2011" class="btn">Comprar no WhatsApp</a>
+    </div>
+
+  </section>
+
+  <footer>
+    <p>© 2025 Futebol Raiz Store – Todos os direitos reservados.</p>
+    <p>Contato: <a href="https://wa.me/seunumerowhatsapp" style="color:#ffcc00;">WhatsApp</a> | Instagram: @futebolraizstore</p>
+  </footer>
+
+</body>
+</html>
